@@ -87,7 +87,7 @@ section {
     padding: 2rem 7%;
 }
 
-.header {
+/* .header {
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-}
+} */
 
 .heading {
     text-align: center;
@@ -155,6 +155,14 @@ html {
     margin-left: 20px;
     display: none;
 }
+.headers{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border-bottom: var(--border);
+}
 
 /* media queries */
 @media only screen and (max-width:1000px){
@@ -192,7 +200,9 @@ html {
 }
 
 /* review section */
-
+.review {
+    margin-top: 200px;
+}
 .review .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -235,6 +245,9 @@ html {
 }
 
 /* location style */
+.location {
+    margin-top: 200px;
+}
 .location .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -273,6 +286,7 @@ html {
 
 .contact {
     background-color: #ffedde;
+    margin-top: 200px;
 }
 
 /* .contact .heading {
@@ -336,6 +350,9 @@ html {
 
 
 /* menu style */
+.menu {
+    margin-top: 200px;
+}
 .menu .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -386,6 +403,9 @@ html {
 
 /* services/products style */
 
+.products {
+    margin-top: 200px;
+}
 .products .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
