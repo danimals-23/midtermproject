@@ -13,6 +13,7 @@
 
     </head>
     <body>
+        <div class="headers">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -34,11 +35,11 @@
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
         </div>
+        </div>
         <!-- contact section start! -->
         <section class="contact" id="contact">
             <h1 class="heading">
-                contact
-                <span> us</span>
+                contact<span> us</span>
             </h1>
 
             <div class="row">
@@ -67,11 +68,13 @@
                         
                     </div>
                     
-                    <input type="submit" value="schedule" class="btn" id="btn" onsubmit="validate()">
+                    <input type="submit" value="schedule" class="btn" id="btn"
+                    onsubmit="validate()">
                 </form>
             </div>
         </section>
         <!-- end of contact section -->
+
         <script language="javascript">
             
             function validate() {
@@ -91,7 +94,7 @@
                 
             }
         </script>
-        
+
         <script>
             var MenuItems = document.getElementById("MenuItems");
             MenuItems.style.maxHeight = "0px";
