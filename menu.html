@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<script>
+    function confirm_alert()
+    {
+        alert("Thank you for choosing us!");
+    }
+</script>
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" class="curve" width="250px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<section class="menu" id="menu">
+
+    <h1 class="heading">Explore<span> Our Foods</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.jpg" alt="">
+            <h3>Homemade Ratatouille</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();" >Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.jpg" alt="">
+            <h3>Frozen Ratatouille</h3>
+            <div class="price">$15.99<span>21.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.jpg" alt="">
+            <h3>Tasty Ratatouille</h3>
+            <div class="price">$10.99<span>20.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.jpg" alt="">
+            <h3>Store-bought Ratatouille</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.jpg" alt="">
+            <h3>Rat Ratatouille</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-6.jpg" alt="">
+            <h3>Healthy Ratatouille</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-7.jpg" alt="">
+            <h3>Ratatouille Spirals</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-8.jpg" alt="">
+            <h3>French Ratatouille</h3>
+            <div class="price">$12.99<span>23.99</span></div>
+            <a href="#" class="btn" onclick="confirm_alert();">Add to cart</a>
+        </div>
+
+    </div>
+    
+</section>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "190px";
+        } 
+        else {
+            ManuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+
+</html>
