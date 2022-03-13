@@ -437,7 +437,7 @@ html {
 }
 
 .products .box-container .box .image img{
-    height: 25rem;
+    width: 25rem;
 }
 
 .products .box-container .box .content h3{
