@@ -87,20 +87,6 @@ section {
     padding: 2rem 7%;
 }
 
-/* .header {
-    background: var(--bg);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-} */
-
 .heading {
     text-align: center;
     color:#2E266F;
@@ -162,6 +148,7 @@ html {
     right: 0;
     background: var(--bg);
     border-bottom: var(--border);
+    z-index: 1000;
 }
 
 /* media queries */
@@ -286,33 +273,28 @@ html {
 
 .contact {
     background-color: #ffedde;
-    margin-top: 200px;
+    margin-top: 160px;
 }
 
-/* .contact .heading {
-    font-size: 3rem;
+.contact {
+    background-image: url("images/backgroundimg.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
 }
 
-.contact .heading span {
-    font-size: 3.5rem;
-    color: #35cd8c;
-} */
-
-.contact .heading h1 {
-    color: #fff5ec;
+.contact .heading {
+    background-color: #fff5ec;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0;
 }
 
 .contact form {
     padding: 2rem;
     background-color: #fff5ec;
-    /* lettuce png??? if desired */
-    /* background-image: url("lettuce.png");
-    height: 500px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 20px; */
 }
 
 .contact form .box-container {
