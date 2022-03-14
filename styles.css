@@ -403,31 +403,6 @@ html {
 
 /* services/products style */
 
-.products {
-    margin-top: 200px;
-}
-.products .box-container{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-
-.products .box-container .box{
-    text-align: center;
-    border: var(--border);
-    padding: 2rem;
-}
-
-.products .box-container .box .icons a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    border: var(--border);
-    color:#35cd8c;
-    margin: .3rem;
-}
-
 .products .box-container .box .icons a:hover{
     background: #fcd4b3;
 }
